@@ -1,0 +1,102 @@
+.search-container {
+    width: 40%; /* Breedte van het iframe-venster (70% van de breedte van de container) */
+    height: 645px; /* Hoogte van het iframe-venster */
+    position: absolute;
+    object-position: 0px -175px;
+    left: 60%;
+    
+    
+}
+body {
+    user-select: none;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+    padding: 0;
+}
+.topbar {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Dark gray background color for the topbar */
+    padding: 10px 0; /* Padding for the topbar */
+}
+.nottopbar {
+    display: flex;
+    align-items: top;
+    background: rgb(34, 34, 34);
+    padding: 10px 0; /* Padding for the topbar */
+    height: 1000px;
+    padding-top: 0px 0px; /* Padding for the topbar */
+    background: rgb(34,34,34);
+    background: linear-gradient(160deg, rgba(34,34,34,1) 39%, rgba(148,187,233,1) 100%);
+}
+.button1 {
+    user-select: none;
+    transition: all 0.25s ease;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #5f6368; /* Witte tekstkleur voor de knoppen */
+    background-color: #ffffff; /* Groene achtergrondkleur voor de knoppen */
+    padding: 10px 20px; /* Binnenruimte van de knoppen */
+    border: none; /* Geen rand om de knoppen */
+    cursor: pointer; /* Aanwijzerstijl bij zweven over de knoppen */
+    margin: 0 4px; /* Ruimte tussen de knoppen in de bovenste button1 */
+}
+.button1:hover {
+background-color: rgba(124, 124, 124, 0.438); /* Blue background color when button is clicked */
+transform: scale(.98); /* decreases size by 10% when button is clicked */
+box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.1);
+}
+.button1:active {
+transform: scale(.9);
+box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.2);
+}
+.searchBox{
+  position: fixed;
+  right:0;
+  margin-right: 5px;
+  margin-top: -2px;
+  width: 350px;
+  border: 3px solid #ffffff;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.09);
+    transition: all 0.5s ease;
+    background: rgba(34, 34, 34, 0);
+    background: linear-gradient(160deg, rgba(34, 34, 34, 0) 49%, rgba(148,187,233,1) 100%);
+}
+.searchBox:hover{
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.21);
+}
+.button2{
+    transition: all 0.25s ease;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 150px;
+    width: 150px;
+    user-select: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    color: #5f6368; /* Witte tekstkleur voor de knoppen */
+    background: rgb(2, 2, 2);
+    border-width: 4px;
+    border: none;
+    background-color: #ffffff
+}
+.button2:hover {
+background-color: rgb(66, 66, 66); /* Blue background color when button is clicked */
+transform: scale(.98); /* decreases size by 10% when button is clicked */
+box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.1);
+}
+.button2:active {
+transform: scale(.8);
+box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.4);
+}
