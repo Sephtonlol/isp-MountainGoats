@@ -12,13 +12,12 @@ document.getElementById("searchBox").addEventListener("input", function() {
 });
 
 var button2 = document.getElementById("button2");
-var searchUrl2 = "https://mail.google.com/mail/u/0/#inbox";
+var searchUrl2 = "https://outlook.office.com/mail/";
 // Voeg een event listener toe aan de knop
 button2.addEventListener("click", function() {
 // Wanneer de knop wordt ingedrukt, maak de bron van het iframe leeg
 document.getElementById("searchBox").value = "";
-    // Maak ook de bron van het iframe leeg
-document.getElementById("searchFrame").src = "";
+
 document.getElementById("searchFrame").src = searchUrl2;
 });
 var button3 = document.getElementById("button3");
