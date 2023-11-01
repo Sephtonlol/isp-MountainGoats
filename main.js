@@ -11,63 +11,27 @@ document.getElementById("searchBox").addEventListener("input", function() {
     }
 });
 
-var button2 = document.getElementById("button2");
-var searchUrl2 = "https://outlook.office.com/mail/";
-// Voeg een event listener toe aan de knop
-button2.addEventListener("click", function() {
-// Wanneer de knop wordt ingedrukt, maak de bron van het iframe leeg
-document.getElementById("searchBox").value = "";
-
-document.getElementById("searchFrame").src = searchUrl2;
-});
-var button3 = document.getElementById("button3");
-var searchUrl3 = "https://docs.google.com/document/u/0/";
-// Voeg een event listener toe aan de knop
-button3.addEventListener("click", function() {
-// Wanneer de knop wordt ingedrukt, maak de bron van het iframe leeg
-document.getElementById("searchBox").value = "";
-    // Maak ook de bron van het iframe leeg
-document.getElementById("searchFrame").src = searchUrl3;
-})
 var button4 = document.getElementById("button4");
-
+var searchUrl2 = "https://chat.openai.com/";
 // Voeg een event listener toe aan de knop
 button4.addEventListener("click", function() {
 // Wanneer de knop wordt ingedrukt, maak de bron van het iframe leeg
 document.getElementById("searchBox").value = "";
     // Maak ook de bron van het iframe leeg
-document.getElementById("searchFrame").src = "";
-})
-var button5 = document.getElementById("button5");
-
-// Voeg een event listener toe aan de knop
-button5.addEventListener("click", function() {
-// Wanneer de knop wordt ingedrukt, maak de bron van het iframe leeg
-document.getElementById("searchBox").value = "";
-    // Maak ook de bron van het iframe leeg
-document.getElementById("searchFrame").src = "";
-})
-var button6 = document.getElementById("button6");
-
-// Voeg een event listener toe aan de knop
-button6.addEventListener("click", function() {
-// Wanneer de knop wordt ingedrukt, maak de bron van het iframe leeg
-document.getElementById("searchBox").value = "";
-    // Maak ook de bron van het iframe leeg
-document.getElementById("searchFrame").src = "";
-})
+document.getElementById("searchFrame").src = searchUrl2;
+});
 var button7 = document.getElementById("button7");
-
+var searchUrl3 = "http://www.staggeringbeauty.com/";
 // Voeg een event listener toe aan de knop
 button7.addEventListener("click", function() {
 // Wanneer de knop wordt ingedrukt, maak de bron van het iframe leeg
 document.getElementById("searchBox").value = "";
     // Maak ook de bron van het iframe leeg
-document.getElementById("searchFrame").src = "";
-})
+document.getElementById("searchFrame").src = searchUrl3;
+});
 
 var icon = document.getElementById("icon");
 
 icon.onclick= function(){
     document.body.classList.toggle("dark-theme");
-}
+};

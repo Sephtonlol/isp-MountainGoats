@@ -1,12 +1,14 @@
 .search-container {
     width: 40%; /* Breedte van het iframe-venster (70% van de breedte van de container) */
-    height: 760px; /* Hoogte van het iframe-venster */
+    height: 615px; /* Hoogte van het iframe-venster */
     position: absolute;
     left: 58%;
     border-radius: 25px; 
     margin-top: 0px;
+    /*
     clip:rect(158px,1000px,1000px,-100px);
     top:-100px;
+    */
     border-color: var(--tertiary-color);
     border-width: 5px;
     transition: all 0.5s ease;
@@ -116,16 +118,16 @@ box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.05);
     position: fixed;
 }
 :root{    
-    --primary-color: #e4e4e4 ;
-    --secundary-color: #d3d3d3;
-    --tertiary-color: (185, 191, 203, 0);
-    --quaternary-color: #b2b4b8;
-    --quinary-color: #b4baca;
-}
-.dark-theme{
     --primary-color: #1c1c1c ;
     --secundary-color: #222222;
     --tertiary-color: #222222;
     --quaternary-color: #333333;
     --quinary-color: #35373c;
+}
+.dark-theme{
+    --primary-color: #e4e4e4 ;
+    --secundary-color: #d3d3d3;
+    --tertiary-color: (185, 191, 203, 0);
+    --quaternary-color: #b2b4b8;
+    --quinary-color: #b4baca;
 }
