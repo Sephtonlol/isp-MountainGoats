@@ -10,32 +10,27 @@
     <div class="topbar">
         
         <div>
-            <button onclick="window.location.href='https://www.google.com'" class="button1">Mountain Goats</button>
+            <button class="button1" id="mountainGoats">Mountain Goats</button>
             <button onclick="window.location.href='usermanagement.php'" class="button1">Admin</button>
             <button onclick="window.location.href='https://www.google.com'" class="button1">Help</button>
 
         </div>
         <input type="text" class="searchBox" id="searchBox" placeholder="zoeken..." onkeydown="search(event)">
-        <img src="moon.png" id="icon">
+        <img src="/Assets/moon.png" id="icon">
     </div>
     <div class="nottopbar">
         <div>
-    <button class="button2" style="margin-left: 70px; margin-top: 40px" id="button2">e-mail</button>
-    <button class="button2" id="button3">docs</button>
+    <button class="button2" onclick="window.open('https://outlook.office.com/mail/?actSwt=true', '_blank');" style="margin-left: 70px; margin-top: 40px" id="button2">e-mail</button>
+    <a href="https://www.google.com/" target="_blank"></a><button class="button2" id="button3">docs</button>
     <button class="button2" id="button4">chatgpt</button>
 
     <br>
 
-    <button class="button2" style="margin-left: 70px;" id="button5">office</button>
-    <button class="button2" id="button6">eduarte</button>
-    <button class="button2" id="button7">Google</button>
+    </a><button onclick="window.open('https://www.office.com', '_blank');"class="button2" style="margin-left: 70px;" id="button5">office</button>
+    <button onclick="window.open('https://vistacollege-student.educus.nl/?2', '_blank');"class="button2" id="button6">eduarte</button></a>
+    <button class="button2" id="button7">bing AI</button></a>
         </div>
         <iframe src = "" class="search-container" id="searchFrame" frameborder="5"></iframe>
     </div>
-    
- 
-
-<!-- Rest van de pagina-inhoud komt hier -->
-
 </body>
 </html>

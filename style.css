@@ -1,6 +1,6 @@
 .search-container {
-    width: 40%; /* Breedte van het iframe-venster (70% van de breedte van de container) */
-    height: 615px; /* Hoogte van het iframe-venster */
+    width: 40%; 
+    height: 615px; 
     position: absolute;
     left: 58%;
     border-radius: 25px; 
@@ -13,6 +13,7 @@
     border-width: 5px;
     transition: all 0.5s ease;
     box-shadow: 0 0 9px 10px rgba(67, 67, 67, 0.15);
+    overflow-x: hidden;
 }
 .search-container:hover{
     box-shadow: 0 0 9px 10px rgba(67, 67, 67, 0.27);
@@ -20,22 +21,23 @@
 body {
     user-select: none;
     margin: 0;
-    overflow: hidden; /* Hide scrollbars */
+    overflow: hidden;  
+    /* Hide scrollbars  */
     padding: 0;
 }
 .topbar {
     display: flex;
     align-items: center;
-    background-color: var(--primary-color); /* Dark gray background color for the topbar */
-    padding: 10px 0; /* Padding for the topbar */
+    background-color: var(--primary-color); 
+    padding: 10px 0; 
 }
 .nottopbar {
     display: flex;
     align-items: top;
     background: var(--secundary-color);
-    padding: 10px 0; /* Padding for the topbar */
+    padding: 10px 0; 
     height: 1000px;
-    padding-top: 0px 0px; /* Padding for the topbar */
+    padding-top: 0px 0px; 
     background: rgb(34,34,34);
     background: linear-gradient(160deg, var(--secundary-color) 20%, rgba(148,187,233,1) 200%);
 }
@@ -46,15 +48,15 @@ body {
     font-weight: bold;
     font-family: Arial, sans-serif;
     font-size: 16px;
-    color: #5f6368; /* Witte tekstkleur voor de knoppen */
-    background-color: var(--secundary-color); /* Groene achtergrondkleur voor de knoppen */
-    padding: 10px 20px; /* Binnenruimte van de knoppen */
-    border: none; /* Geen rand om de knoppen */
-    cursor: pointer; /* Aanwijzerstijl bij zweven over de knoppen */
-    margin: 0 4px; /* Ruimte tussen de knoppen in de bovenste button1 */
+    color: #5f6368; 
+    background-color: var(--secundary-color); 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    margin: 0 4px; 
 }
 .button1:hover {
-transform: scale(.95); /* decreases size by 10% when button is clicked */
+transform: scale(.95); 
 box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.01);
 }
 .button1:active {
@@ -103,8 +105,8 @@ background: linear-gradient(160deg, var(--secundary-color) 19%, var(--primary-co
     cursor: pointer;
 }
 .button2:hover {
-background-color: rgba #f2f3f5; /* background color when hover */
-transform: scale(.98); /* decreases size by 2% when hover */
+background-color: rgba #f2f3f5; 
+transform: scale(.98); 
 box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.03);
 }
 .button2:active {
