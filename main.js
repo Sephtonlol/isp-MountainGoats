@@ -21,13 +21,13 @@ document.getElementById("searchBox").value = "";
 document.getElementById("searchFrame").src = searchUrl2;
 });
 var button3 = document.getElementById("button3");
-
+var searchUrl3 = "https://docs.google.com/document/u/0/";
 // Voeg een event listener toe aan de knop
 button3.addEventListener("click", function() {
 // Wanneer de knop wordt ingedrukt, maak de bron van het iframe leeg
 document.getElementById("searchBox").value = "";
     // Maak ook de bron van het iframe leeg
-document.getElementById("searchFrame").src = "";
+document.getElementById("searchFrame").src = searchUrl3;
 })
 var button4 = document.getElementById("button4");
 
@@ -65,3 +65,9 @@ document.getElementById("searchBox").value = "";
     // Maak ook de bron van het iframe leeg
 document.getElementById("searchFrame").src = "";
 })
+
+var icon = document.getElementById("icon");
+
+icon.onclick= function(){
+    document.body.classList.toggle("dark-theme");
+}

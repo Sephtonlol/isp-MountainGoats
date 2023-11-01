@@ -7,8 +7,7 @@
     margin-top: 0px;
     clip:rect(158px,1000px,1000px,-100px);
     top:-100px;
-    border-color: rgb(57, 62, 69);
-    border-style: solid;
+    border-color: var(--tertiary-color);
     border-width: 5px;
     transition: all 0.5s ease;
     box-shadow: 0 0 9px 10px rgba(67, 67, 67, 0.15);
@@ -25,18 +24,18 @@ body {
 .topbar {
     display: flex;
     align-items: center;
-    background-color: rgb(28, 28, 28); /* Dark gray background color for the topbar */
+    background-color: var(--primary-color); /* Dark gray background color for the topbar */
     padding: 10px 0; /* Padding for the topbar */
 }
 .nottopbar {
     display: flex;
     align-items: top;
-    background: rgb(34, 34, 34);
+    background: var(--secundary-color);
     padding: 10px 0; /* Padding for the topbar */
     height: 1000px;
     padding-top: 0px 0px; /* Padding for the topbar */
     background: rgb(34,34,34);
-    background: linear-gradient(160deg, rgba(34,34,34,1) 20%, rgba(148,187,233,1) 200%);
+    background: linear-gradient(160deg, var(--secundary-color) 20%, rgba(148,187,233,1) 200%);
 }
 .button1 {
     user-select: none;
@@ -46,7 +45,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: #5f6368; /* Witte tekstkleur voor de knoppen */
-    background-color: rgb(34, 34, 34); /* Groene achtergrondkleur voor de knoppen */
+    background-color: var(--secundary-color); /* Groene achtergrondkleur voor de knoppen */
     padding: 10px 20px; /* Binnenruimte van de knoppen */
     border: none; /* Geen rand om de knoppen */
     cursor: pointer; /* Aanwijzerstijl bij zweven over de knoppen */
@@ -64,10 +63,10 @@ box-shadow: 0 0 8px 7px rgba(255, 255, 255, 0.01);
 transition: all 0.5s ease;
 position: fixed;
 right:0;
-margin-right: 25px;
+margin-right: 3%;
 margin-top: -2px;
 width: 350px;
-border: 3px solid #35373c;
+border: 3px solid var(--quinary-color);;
 background: transparent;
 padding: 5px 10px;
 border-radius: 50px;
@@ -77,8 +76,8 @@ color: #757575;
 font-weight: bold;
 box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.025);
 transition: all 0.5s ease;
-background: rgba(34, 34, 34, 0);
-background: linear-gradient(160deg, rgba(34, 34, 34, 0) 19%, rgb(28, 28, 28) 100%);
+background: var(--tertiary-color);
+background: linear-gradient(160deg, var(--secundary-color) 19%, var(--primary-color) 100%);
 }
 .searchBox:hover{
     box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.05);
@@ -98,14 +97,35 @@ background: linear-gradient(160deg, rgba(34, 34, 34, 0) 19%, rgb(28, 28, 28) 100
     color: #5f6368; 
     border-width: 4px;
     border: none;
-    background-color: #333333
+    background-color: var(--quaternary-color);
+    cursor: pointer;
 }
 .button2:hover {
-background-color: rgba #f2f3f5; /* Blue background color when hover */
+background-color: rgba #f2f3f5; /* background color when hover */
 transform: scale(.98); /* decreases size by 2% when hover */
 box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.03);
 }
 .button2:active {
 transform: scale(.86);
 box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.05);
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 97.5%;
+    position: fixed;
+}
+:root{    
+    --primary-color: #e4e4e4 ;
+    --secundary-color: #d3d3d3;
+    --tertiary-color: (185, 191, 203, 0);
+    --quaternary-color: #b2b4b8;
+    --quinary-color: #b4baca;
+}
+.dark-theme{
+    --primary-color: #1c1c1c ;
+    --secundary-color: #222222;
+    --tertiary-color: #222222;
+    --quaternary-color: #333333;
+    --quinary-color: #35373c;
 }
