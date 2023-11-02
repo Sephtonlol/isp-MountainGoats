@@ -44,7 +44,7 @@ icon.onclick= function(){
 
 const button = document.getElementById('mountainGoats');
 const mountainGoatsByClass = document.getElementsByClassName("play");
-const audio = new Audio("./goatScream.mp3");
+const audio = new Audio("./Assets/goatScream.mp3");
 
 let clickCount = 0;
 let lastClickTime = 0;
