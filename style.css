@@ -113,6 +113,60 @@ box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.03);
 transform: scale(.86);
 box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.05);
 }
+.button2-1{
+    margin-left: 70px; 
+    margin-top: 40px;
+    box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.01);
+    transition: all 0.25s ease;
+    height: 150px;
+    width: 150px;
+    user-select: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    color: #5f6368; 
+    border-width: 4px;
+    border: none;
+    background-color: var(--quaternary-color);
+    cursor: pointer;
+}
+.button2-1:hover {
+    background-color: rgba #f2f3f5; 
+    transform: scale(.98); 
+    box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.03);
+    }
+    .button2-1:active {
+    transform: scale(.86);
+    box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.05);
+    }
+.button2-2{
+    margin-left: 70px; 
+    margin-top: 20px;
+    box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.01);
+    transition: all 0.25s ease;
+    height: 150px;
+    width: 150px;
+    user-select: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 29px;
+    color: #5f6368; 
+    border-width: 4px;
+    border: none;
+    background-color: var(--quaternary-color);
+    cursor: pointer;
+}
+.button2-2:hover {
+    background-color: rgba #f2f3f5; 
+    transform: scale(.98); 
+    box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.03);
+    }
+    .button2-2:active {
+    transform: scale(.86);
+    box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.05);
+    }
 #icon{
     width: 30px;
     cursor: pointer;
@@ -132,4 +186,206 @@ box-shadow: 0 0 12px 10px rgba(255, 255, 255, 0.05);
     --tertiary-color: (185, 191, 203, 0);
     --quaternary-color: #b2b4b8;
     --quinary-color: #b4baca;
+}
+
+@media screen and (min-width:851px) and (max-width: 985px){
+    .button2{
+        margin-top: 10px;
+        margin-left: 15px;
+        height: 130px;
+        width: 130px;
+        font-size: 19px;
+    }
+    .button2-1{
+        margin-top: 10px;
+        margin-left: 7px;
+        height: 130px;
+        width: 130px;
+        font-size: 19px;
+    }
+    .button2-2{
+        margin-top: 10px;
+        margin-left: 7px;
+        height: 130px;
+        width: 130px;
+        font-size: 19px;
+    }
+    .search-container {
+        margin-top: 10px;
+        width: 45%; 
+        height: 415px; 
+        left: 52%;
+    }
+    .searchBox{
+        right: 19px;
+        margin-right: 3%;
+        width: 180px;
+    }
+    #icon{
+        width: 30px;
+        cursor: pointer;
+        margin-left: 95.5%;
+        position: fixed;
+    }
+}
+@media screen and (min-width:701px) and (max-width: 850px){
+    .button2{
+        margin-top: 10px;
+        margin-left: 7px;
+        height: 110px;
+        width: 110px;
+        font-size: 19px;
+    }
+    .button2-1{
+        margin-top: 10px;
+        margin-left: 7px;
+        height: 110px;
+        width: 110px;
+        font-size: 19px;
+    }
+    .button2-2{
+        margin-top: 10px;
+        margin-left: 7px;
+        height: 110px;
+        width: 110px;
+        font-size: 19px;
+    }
+    .search-container {
+        margin-top: 10px;
+        width: 45%; 
+        height: 415px; 
+        left: 52%;
+    }
+    .searchBox{
+        right: 19px;
+        margin-right: 3%;
+        width: 180px;
+    }
+    #icon{
+        width: 30px;
+        cursor: pointer;
+        margin-left: 94.5%;
+        position: fixed;
+    }
+}
+@media screen and (min-width:601px) and (max-width: 850px){
+    .button2{
+        margin-top: 10px;
+        margin-left: 6px;
+        height: 105px;
+        width: 105px;
+        font-size: 19px;
+    }
+    .button2-1{
+        margin-top: 10px;
+        margin-left: 6px;
+        height: 105px;
+        width: 105px;
+        font-size: 19px;
+    }
+    .button2-2{
+        margin-top: 10px;
+        margin-left: 6px;
+        height: 105px;
+        width: 105px;
+        font-size: 19px;
+    }
+    .search-container {
+        margin-top: 10px;
+        width: 40%; 
+        height: 415px; 
+        left: 57%;
+    }
+    .searchBox{
+        right: 19px;
+        margin-right: 3%;
+        width: 180px;
+    }
+    #icon{
+        width: 30px;
+        cursor: pointer;
+        margin-left: 94.5%;
+        position: fixed;
+    }
+}
+@media screen and (min-width:550px) and (max-width: 600px){
+    .button2{
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 100px;
+        width: 100px;
+        font-size: 19px;
+    }
+    .button2-1{
+        margin-top: 10px;
+        margin-left: 7px;
+        height: 100px;
+        width: 100px;
+        font-size: 19px;
+    }
+    .button2-2{
+        margin-top: 10px;
+        margin-left: 7px;
+        height: 100px;
+        width: 100px;
+        font-size: 19px;
+    }
+    .search-container {
+        margin-top: 40px;
+        width: 40%; 
+        height: 315px; 
+    }
+    .searchBox{
+        right:-5px;
+        margin-right: 3%;
+        margin-top: 110px;
+        width: 200px;
+    }
+    #icon{
+        width: 30px;
+        cursor: pointer;
+        margin-left: 93.5%;
+        position: fixed;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width: 549px){
+    .button2{
+        margin-top: 290px;
+        margin-left: 5px;
+        height: 100px;
+        width: 100px;
+        font-size: 19px;
+    }
+    .button2-1{
+        margin-top: 10px;
+        margin-left: 40px;
+        height: 100px;
+        width: 100px;
+        font-size: 19px;
+    }
+    .button2-2{
+        margin-top: 10px;
+        margin-left: 40px;
+        height: 100px;
+        width: 100px;
+        font-size: 19px;
+    }
+    .search-container {
+        width: 88%; 
+        height: 225px; 
+        left: 5%;
+        margin-top: 40px;
+    }
+    .searchBox{
+        right: 10px;
+        margin-top: 110px;
+        width: 330px;
+    }
+    #icon{
+        width: 30px;
+        cursor: pointer;
+        margin-left: 90%;
+        position: fixed;
+    }
 }

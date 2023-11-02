@@ -16,7 +16,7 @@ document.getElementById("searchBox").addEventListener("input", function() {
 });
 
 var button4 = document.getElementById("button4");
-var searchUrl2 = "https://chat.openai.com/?model=text-davinci-002-render-sha";
+var searchUrl2 = "https://www.bing.com/translator";
 button4.addEventListener("click", function() {
 // Wanneer de knop wordt ingedrukt zal de zoekbalk automatisch leeg gemaakt worden
 document.getElementById("searchBox").value = "";
